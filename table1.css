@@ -1,0 +1,79 @@
+.container {
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #7fffd4
+}
+table, td, th {
+
+    border-bottom: 2px solid;
+    border-color: rgb(74, 41, 97);
+    border-collapse: collapse;
+}
+
+table {
+
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td, th {
+
+    padding: 20px;
+
+}
+
+th {
+
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+tr:hover {
+
+    background-color: azure;
+}
+
+td input[type="button"] {
+
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 3px;
+    font-size: 15px;
+    width: 80%;
+}
+
+.fa-check {
+
+    background-color: rgb(164, 187, 164);
+    padding: 1px;
+    
+}
+
+.fa-check:hover{
+
+    background-color: aquamarine;
+}
+
+
+.fa-xmark{
+    background-color: rgb(164, 187, 164);
+    padding: 1px;
+}
+
+caption{
+    padding: 15px;
+    font-size: 15px bold;
+}
+
+ /* .input:hover [type="button"]{ 
+
+background-color: black;
+} */
+
+.input:hover{
+
+    background-color: black;
+}
