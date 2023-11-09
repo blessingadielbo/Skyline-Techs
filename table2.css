@@ -1,0 +1,48 @@
+.container{
+
+    width:80%;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    height: 90vh;
+    padding-top: 20px; 
+}
+
+table, td, th {
+
+    border: 2px solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+table {
+
+    width: 100%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td, th {
+
+    padding: 25px;
+}
+
+th {
+
+    background-color: grey;
+    color: aliceblue;
+}
+
+caption{
+
+    padding: 15px;
+}
+
+ tr:nth-child(odd){
+
+    background-color: rgb(205, 205, 144);
+}
+
+tr:hover{
+    background-color: rgb(185, 200, 162);
+}
